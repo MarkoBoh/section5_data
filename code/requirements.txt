@@ -1,4 +1,4 @@
 Flask
-Flask-RESTfull
+Flask-RESTful
 Flask-JWT
 uwsgi
