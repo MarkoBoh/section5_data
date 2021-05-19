@@ -19,5 +19,5 @@ api.add_resource(Users,'/users')
 
 if __name__ == '__main__': # ce smo v glavnem modulu, pozeni, sicer pa ne, ker smo v import knjiznici
                             # python modulu, ki ga pozenemo, doloci flag __main__
-    app.run(port=5000, debug=True) # p5000 je sicer default, lahko ni izpustili
+    app.run(debug=True) # p5000 je sicer default, lahko ni izpustili
 
