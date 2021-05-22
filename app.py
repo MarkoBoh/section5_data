@@ -21,3 +21,4 @@ if __name__ == '__main__': # ce smo v glavnem modulu, pozeni, sicer pa ne, ker s
                             # python modulu, ki ga pozenemo, doloci flag __main__
     app.run(debug=True) # p5000 je sicer default, lahko ni izpustili
 
+ 
