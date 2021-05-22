@@ -1,0 +1,7 @@
+/sect5
+/venv
+__pycache__
+Procfile
+requirements.txt
+uwsgi.ini
+
