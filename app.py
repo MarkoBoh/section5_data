@@ -5,7 +5,7 @@ from flask_jwt import JWT
 from items import Item, ItemList
 from security import authenticate, identity
 from user import  UserRegister, Users
- 
+  
 app = Flask(__name__)
 app.secret_key = 'MarkoGeslo'
 api = Api(app)
