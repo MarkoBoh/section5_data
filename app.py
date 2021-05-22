@@ -1,6 +1,7 @@
 from flask import Flask
-from flask_restful import Api
-from flask_jwt import JWT
+import flask_restful 
+from flask_restful import Resource, Api, reqparse
+from flask_jwt import JWT, jwt_required
 
 from items import Item, ItemList
 from security import authenticate, identity
@@ -19,6 +20,6 @@ api.add_resource(Users,'/users')
 
 if __name__ == '__main__': # ce smo v glavnem modulu, pozeni, sicer pa ne, ker smo v import knjiznici
                             # python modulu, ki ga pozenemo, doloci flag __main__
-    app.run(debug=True) # p5000 je sicer default, lahko ni izpustili
+    app.run(host="0.0.0.0",debug=True) # p5000 je sicer default, lahko ni izpustili
 
  
